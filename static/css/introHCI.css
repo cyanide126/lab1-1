@@ -1,14 +1,28 @@
 /* applies to anything of class "example-class-selector" */
+.project {
+     margin-left: 20px;
+}
+
+img {
+     height: 200px;
+}
+
 .example-class-selector {
 	margin-top: 2em;
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
-.example-class-selector p {
+p {
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
-	color: #CC00AA;
+	color: #3d3d3d;
+     font-family: Arial, Helvetica, sans-serif;
+
 }
 
+h1, h4{
+     font-family: Arial, Helvetica, sans-serif;
+
+}
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
